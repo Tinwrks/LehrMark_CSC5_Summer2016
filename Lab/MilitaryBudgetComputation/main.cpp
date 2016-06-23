@@ -13,7 +13,7 @@ using namespace std; //Namespace of the System Libraries
 //User Libraries
 
 //Global Constants
-const int CNVPERC=100;
+const int CNVPERC=100;//Conversion to percentage
 
 //Function Prototypes
 
