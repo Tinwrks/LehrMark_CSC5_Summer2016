@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Dr. Mark E. Lehr
  * Created on June 27, 2016, 9:03 PM
- * Purpose:  Template
+ * Purpose:  Conversion with an equation vs. interpolation
  */
 
 //System Libraries
