@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Dr. Mark E. Lehr
  * Created on June 27, 2016, 11:20 AM
- * Purpose:  Template
+ * Purpose:  Truth Table
  */
 
 //System Libraries
