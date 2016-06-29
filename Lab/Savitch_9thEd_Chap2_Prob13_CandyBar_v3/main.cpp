@@ -32,8 +32,8 @@ int main(int argc, char** argv) {
     cin>>lbs>>inches>>yrs;
     
     //Process the Data
-    if(mf=='m'||mf=='M')BMR=66+6.3*lbs+12.9*inches+6.8*yrs;
-    if(mf=='f'||mf=='F')BMR=655+4.3*lbs+4.7*inches+4.7*yrs;
+    if(mf=='m'||mf=='M')BMR=66+6.3*lbs+12.9*inches-6.8*yrs;
+    if(mf=='f'||mf=='F')BMR=655+4.3*lbs+4.7*inches-4.7*yrs;
     nBars=BMR/chocBar+1;
     
     //Output the processed Data

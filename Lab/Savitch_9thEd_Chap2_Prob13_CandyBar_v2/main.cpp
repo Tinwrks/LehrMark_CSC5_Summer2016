@@ -33,8 +33,8 @@ int main(int argc, char** argv) {
     
     //Process the Data
     BMR=(mf=='m'||mf=='M')?
-        66+6.3*lbs+12.9*inches+6.8*yrs://Male Equation
-        655+4.3*lbs+4.7*inches+4.7*yrs;//Female Equation
+        66+6.3*lbs+12.9*inches-6.8*yrs://Male Equation
+        655+4.3*lbs+4.7*inches-4.7*yrs;//Female Equation
     nBars=BMR/chocBar+1;
     
     //Output the processed Data
