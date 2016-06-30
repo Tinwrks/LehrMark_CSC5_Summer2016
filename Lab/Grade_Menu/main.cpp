@@ -49,7 +49,7 @@ int main(int argc, char** argv) {
                 case  6:grade='D';break;
                 default:grade='F';
             }
-    
+
             //Output the processed Data
             cout<<score<<" equates to a "<<grade<<" grade!"<<endl;
             //Exit the switch
