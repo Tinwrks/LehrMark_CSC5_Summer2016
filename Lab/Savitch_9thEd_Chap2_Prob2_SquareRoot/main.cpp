@@ -25,7 +25,7 @@ int main(int argc, char** argv) {
     //Input Data
     cout<<"Program to calculate the square root"<<endl;
     cout<<"Input a number to see the repetitive approximation of the";
-    cout<<"of the square root"<<endl;
+    cout<<" square root"<<endl;
     cin>>n;
     
     //Process the Data - first pass
