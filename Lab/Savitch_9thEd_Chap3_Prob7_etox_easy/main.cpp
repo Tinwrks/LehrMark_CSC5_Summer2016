@@ -27,12 +27,14 @@ int main(int argc, char** argv) {
     cin>>x;
     
     //Process the Data
-    int n;
-    for(n=1;term>tol;term*=x/n,apprxEx+=term,n++){}
+    for(int n=1;term>tol;n++){
+        term*=x/n;
+        apprxEx+=term;
+    }
     
     //Output the processed Data
     cout<<"Exact       e^"<<x<<"="<<exp(x)<<endl;
-    cout<<"Approximate e^"<<x<<"="<<apprxEx<<" with "<<n<<" terms"<<endl;
+    cout<<"Approximate e^"<<x<<"="<<apprxEx<<endl;
     
     //Exit Stage Right!
     return 0;
