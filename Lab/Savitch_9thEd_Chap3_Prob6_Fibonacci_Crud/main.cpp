@@ -21,7 +21,7 @@ int main(int argc, char** argv) {
     //Declare Variables
     float crudWt,curntWt;//Crud weight in lbs
     int fi=1,fip1=1,fip2;//Fibonacci sequence
-    int days=0;//Number of Days
+    int days=0,i=1;//Number of Days
     
     //Input Data
     cout<<"How many lbs of crud do you have?"<<endl;
@@ -29,13 +29,13 @@ int main(int argc, char** argv) {
     
     //Process the Data - Day 0
     curntWt=crudWt*fi;
-    cout<<"  Fi Days Weight"<<endl;
-    cout<<setw(4)<<fi<<setw(5)<<days<<setw(7)<<curntWt<<endl;
+    cout<<"i  Fi Days Weight"<<endl;
+    cout<<i<<setw(4)<<fi<<setw(5)<<days<<setw(7)<<curntWt<<endl;
     
     //Process the Data - Day 5
     curntWt=crudWt*fip1;
     days+=5;
-    cout<<setw(4)<<fi<<setw(5)<<days<<setw(7)<<curntWt<<endl;
+    cout<<++i<<setw(4)<<fi<<setw(5)<<days<<setw(7)<<curntWt<<endl;
     
     //Process the Data - Day 10
     fip2=fip1;
@@ -43,7 +43,7 @@ int main(int argc, char** argv) {
     fi=fip1+fip2;
     curntWt=crudWt*fi;
     days+=5;
-    cout<<setw(4)<<fi<<setw(5)<<days<<setw(7)<<curntWt<<endl;
+    cout<<++i<<setw(4)<<fi<<setw(5)<<days<<setw(7)<<curntWt<<endl;
     
     //Process the Data - Day 15
     fip2=fip1;
@@ -51,7 +51,7 @@ int main(int argc, char** argv) {
     fi=fip1+fip2;
     curntWt=crudWt*fi;
     days+=5;
-    cout<<setw(4)<<fi<<setw(5)<<days<<setw(7)<<curntWt<<endl;
+    cout<<++i<<setw(4)<<fi<<setw(5)<<days<<setw(7)<<curntWt<<endl;
     
     //Process the Data - Day 20
     fip2=fip1;
@@ -59,7 +59,7 @@ int main(int argc, char** argv) {
     fi=fip1+fip2;
     curntWt=crudWt*fi;
     days+=5;
-    cout<<setw(4)<<fi<<setw(5)<<days<<setw(7)<<curntWt<<endl;
+    cout<<++i<<setw(4)<<fi<<setw(5)<<days<<setw(7)<<curntWt<<endl;
     
     //Process the Data - Day 30
     fip2=fip1;
@@ -67,7 +67,7 @@ int main(int argc, char** argv) {
     fi=fip1+fip2;
     curntWt=crudWt*fi;
     days+=5;
-    cout<<setw(4)<<fi<<setw(5)<<days<<setw(7)<<curntWt<<endl;
+    cout<<++i<<setw(4)<<fi<<setw(5)<<days<<setw(7)<<curntWt<<endl;
     
     //Exit Stage Right!
     return 0;

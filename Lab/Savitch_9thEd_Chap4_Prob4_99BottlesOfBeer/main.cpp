@@ -2,7 +2,7 @@
  * File:   main.cpp
  * Author: Dr. Mark E. Lehr
  * Created on July 6th, 2016, 12:28 PM
- * Purpose:  Template
+ * Purpose:  Bottles of Beer
  */
 
 //System Libraries

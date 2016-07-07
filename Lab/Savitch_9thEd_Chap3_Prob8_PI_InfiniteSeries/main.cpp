@@ -21,7 +21,7 @@ const float PI=4*atan(1);
 //Execution Begins Here!
 int main(int argc, char** argv) {
     //Declare Variables
-    float apprxPI=0,tol;
+    double apprxPI=0,tol;
     
     //Input Data
     cout<<"Tolerance of the approximate PI to a power of 10^-"<<endl;
